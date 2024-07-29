@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|c:\\projetos\\dev-projects\\restapiaspnetcore7\\awesomedevevents\\awesomedeveventsapi\\controllers\\deveventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|solutionrelative:awesomedeveventsapi\\controllers\\deveventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|c:\\projetos\\dev-projects\\restapiaspnetcore7\\awesomedevevents\\awesomedeveventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|solutionrelative:awesomedeveventsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|c:\\projetos\\dev-projects\\restapiaspnetcore7\\awesomedevevents\\awesomedeveventsapi\\persistence\\deveventsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|solutionrelative:awesomedeveventsapi\\persistence\\deveventsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|c:\\projetos\\dev-projects\\restapiaspnetcore7\\awesomedevevents\\awesomedeveventsapi\\entities\\deveventspeaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|solutionrelative:awesomedeveventsapi\\entities\\deveventspeaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|c:\\projetos\\dev-projects\\restapiaspnetcore7\\awesomedevevents\\awesomedeveventsapi\\entities\\devevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B2E55B-9B51-4538-9808-65EF6BEC908A}|AwesomeDevEventsAPI\\AwesomeDevEventsAPI.csproj|solutionrelative:awesomedeveventsapi\\entities\\devevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +39,67 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AwesomeDevEventsAPI\\Program.cs",
+              "ToolTip": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Program.cs",
+              "RelativeToolTip": "AwesomeDevEventsAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T00:01:37.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DevEventsDbContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Persistence\\DevEventsDbContext.cs",
+              "RelativeDocumentMoniker": "AwesomeDevEventsAPI\\Persistence\\DevEventsDbContext.cs",
+              "ToolTip": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Persistence\\DevEventsDbContext.cs",
+              "RelativeToolTip": "AwesomeDevEventsAPI\\Persistence\\DevEventsDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T23:02:36.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DevEventSpeaker.cs",
+              "DocumentMoniker": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Entities\\DevEventSpeaker.cs",
+              "RelativeDocumentMoniker": "AwesomeDevEventsAPI\\Entities\\DevEventSpeaker.cs",
+              "ToolTip": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Entities\\DevEventSpeaker.cs",
+              "RelativeToolTip": "AwesomeDevEventsAPI\\Entities\\DevEventSpeaker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T23:02:05.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DevEvent.cs",
+              "DocumentMoniker": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Entities\\DevEvent.cs",
+              "RelativeDocumentMoniker": "AwesomeDevEventsAPI\\Entities\\DevEvent.cs",
+              "ToolTip": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Entities\\DevEvent.cs",
+              "RelativeToolTip": "AwesomeDevEventsAPI\\Entities\\DevEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T21:28:34.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DevEventsController.cs",
+              "DocumentMoniker": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Controllers\\DevEventsController.cs",
+              "RelativeDocumentMoniker": "AwesomeDevEventsAPI\\Controllers\\DevEventsController.cs",
+              "ToolTip": "C:\\Projetos\\Dev-Projects\\RestApiAspNetCore7\\AwesomeDevEvents\\AwesomeDevEventsAPI\\Controllers\\DevEventsController.cs",
+              "RelativeToolTip": "AwesomeDevEventsAPI\\Controllers\\DevEventsController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAuwFEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T21:26:16.09Z",
+              "EditorCaption": ""
             }
           ]
         }

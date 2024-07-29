@@ -21,11 +21,11 @@ namespace AwesomeDevEventsAPI.Controllers
         public IActionResult GetAll()
         {
             var devEvents = _context.DevEvents.Where(d => !d.IsDeleted).ToList();
-            
+
             return Ok(devEvents);
         }
 
-        // api/dev-events/1231254 GET
+        // api/dev-events/3fa85f64-5717-4562-b3fc-2c963f66afa6 GET
         [HttpGet("{id}")]
         public IActionResult GetById(Guid id)
         {
@@ -47,9 +47,9 @@ namespace AwesomeDevEventsAPI.Controllers
             _context.DevEvents.Add(devEvent);
 
             return CreatedAtAction(nameof(GetById), new { id = devEvent.Id }, devEvent);
-        }      
+        }
 
-        //api-/dev-events/12312421 PUT
+        //api-/dev-events/3fa85f64-5717-4562-b3fc-2c963f66afa6 PUT
         [HttpPut("{id}")]
         public IActionResult Update(Guid id, DevEvent input)
         {
@@ -65,7 +65,7 @@ namespace AwesomeDevEventsAPI.Controllers
             return NoContent();
         }
 
-        // api/dev-events/1231254 DELETE
+        // api/dev-events/3fa85f64-5717-4562-b3fc-2c963f66afa6 DELETE
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {
@@ -80,7 +80,21 @@ namespace AwesomeDevEventsAPI.Controllers
 
             return NoContent();
         }
-        
+
+        // api/dev-events/3fa85f64-5717-4562-b3fc-2c963f66afa6/speakers
+        [HttpPost("{id}/speakers")]
+        public IActionResult PostSpeaker(Guid id, DevEventSpeaker speaker)
+        {
+            var devEvent = _context.DevEvents.SingleOrDefault(d => d.Id == id);
+            if (devEvent == null)
+            {
+                return NotFound();
+            }
+            devEvent.Speakers.Add(speaker);
+
+            return NoContent();
+        }
+
 
     }
 
